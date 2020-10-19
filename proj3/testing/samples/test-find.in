@@ -1,0 +1,15 @@
+> init
+<<<
+D HEADER "commit [a-f0-9]+"
+D RESULT "[a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"
+> log
+===
+${HEADER}
+${DATE}
+initial commit
+
+<<<*
+> find "initial commit"
+7a258e6587f0b27c0c3496e7523610df3afd77e7
+<<<

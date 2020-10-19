@@ -1,0 +1,17 @@
+I test-branch1.in
+> checkout tester
+<<<
+> status
+=== Branches ===
+master
+\*tester
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<*

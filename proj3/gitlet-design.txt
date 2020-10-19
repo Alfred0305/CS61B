@@ -1,0 +1,21 @@
+Gitlet Design Document
+----------------------
+
+
+Classes and Data Structures
+---------------------------
+Branch Class: A class constructs branch objects.
+Command Class: A class handles most of commands.
+Commit Class: A class constructs commit object.
+
+Algorithms
+----------
+add: Staging an already-staged file overwrites the previous.
+commit: Commit current changes.
+rm: Unstage the file if it is currently staged.
+log: Print out commits in current branch.
+globalLog: Print out all commits.
+
+Persistence
+-----------
+A program trying to do similar things as real git.

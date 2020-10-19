@@ -1,0 +1,18 @@
+I test-branch1.in
+> branch tester2
+<<<
+> status
+=== Branches ===
+\*master
+tester2
+tester
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<*

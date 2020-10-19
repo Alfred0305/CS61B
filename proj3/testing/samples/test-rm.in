@@ -1,0 +1,44 @@
+# Test the find command when it succeeds.
+> init
+<<<
+D HEADER "commit [a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"
++ wug.txt wug.txt
+> add wug.txt
+<<<
++ notwug.txt notwug.txt
+> add notwug.txt
+<<<
+> commit "Add wug.txt and notwug.txt"
+<<<
+> rm wug.txt
+<<<
+> commit "Remove wug.txt"
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "Add wug.txt and notwug.txt"
+<<<
+> log
+===
+${HEADER}
+${DATE}
+Add wug.txt and notwug.txt
+
+===
+${HEADER}
+${DATE}
+Remove wug.txt
+
+===
+${HEADER}
+${DATE}
+Add wug.txt and notwug.txt
+
+===
+${HEADER}
+${DATE}
+initial commit
+
+<<<*

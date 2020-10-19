@@ -1,0 +1,22 @@
+#* java -ea tablut.Main
+# Check that capturing King at THRONE work correctly.
+manual white
+manual white
+a6-9
+dump
+e6-a
+dump
+i6-e
+dump
+f5-8
+dump
+f1-5
+dump
+d5-8
+dump
+d1-5
+dump
+e4-h
+dump
+a4-e
+dump

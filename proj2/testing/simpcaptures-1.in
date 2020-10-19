@@ -1,0 +1,10 @@
+#* java -ea tablut.Main
+# Check that simple captures work correctly.
+manual white
+manual white
+i6-g
+dump
+c5-8
+dump
+i4-g
+dump

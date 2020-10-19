@@ -1,0 +1,16 @@
+I test-branch1.in
+>rm-branch tester
+<<<
+> status
+=== Branches ===
+\*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<*
